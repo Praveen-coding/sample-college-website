@@ -1,9 +1,18 @@
+body{
+  padding-top: 70px;
+}
+nav{
+  background-color: #fff;
+}
 .jumbotron {
     text-align: center;
     background: none;
-    
+
 }
 
+.navbar-nav{
+  min-width: 440px;
+}
 .sectionLight {
     background-color: #eceeef;
     padding: 2em;
@@ -13,10 +22,6 @@ img.brand-logo {
     max-height: 30px;
     max-width: 200px;
     width: auto;
-}
-
-a.nav-link {
-    font-size: 1.1rem;
 }
 .carousel {
     max-height: 500px;
